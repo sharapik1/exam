@@ -16,19 +16,35 @@ using WpfApp2.Model;
 
 namespace WpfApp2
 {
-    public partial class MainWindow : Window { 
-    public IEnumerable<pokipateli> PokipateliList { get; set; }
-
-    public MainWindow()
+    public partial class MainWindow : Window
     {
+        public string SelectedPokipateli = "";
+        public IEnumerable<SpravochnikPokipateli> PokipateliCityList { get; set; }
+        private IEnumerable<pokipateli> _PokipateliList = null;
+        public IEnumerable<pokipateli> PokipateliList 
+        { 
+            get
+            {
+                return _PokipateliList
+                    .Where(c => (SelectedPokipateli == "Все покупатели" || c.City == SelectedPokipateli));
+            } 
+            set
+            {
+                _PokipateliList = value;
+            }
+           
+        }
+        public MainWindow()
+        {
         InitializeComponent();
         DataContext = this;
         Globals.dataProvider = new LocalDataProvider();
         PokipateliList = Globals.dataProvider.GetPokipatelis();
-    }
-    private void ExitButton_Click(object senter, RoutedEventArgs e)
-    {
+            PokipateliCityList = 
+        }
+        private void ExitButton_Click(object senter, RoutedEventArgs e)
+        {
         Application.Current.Shutdown();
+        }
     }
-}
 }
