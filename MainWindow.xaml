@@ -17,9 +17,10 @@
                 <ColumnDefinition Width="200"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
+        
 
 
-            <Image 
+        <Image 
             Source="./Img/client.jpg" 
             Grid.RowSpan="2"/>
 
@@ -38,7 +39,25 @@
         Orientation="Horizontal"
         Grid.Column="1"
         MinHeight="50">
-            </WrapPanel>
+            <Label
+            Content="Город:"
+            VerticalAlignment="Center"/>
+            <ComboBox
+                    Name="CityFilterComboBox"
+                    SelectionChanged="CityFilterComboBox_SelectionChanged"
+                    VerticalAlignment="Center"
+                    MinWidth="100"
+                    SelectedIndex="0"
+                    ItemsSource="{Binding CityList}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <Label
+                            Content="{Binding Title}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+                    
+        </WrapPanel>
         <DataGrid 
           Grid.Row="1"
           Grid.Column="1"
@@ -60,6 +79,7 @@
             Binding="{Binding Symmapokipok}"/>
             </DataGrid.Columns>
         </DataGrid>
+        
 
     </Grid>
 </Window>

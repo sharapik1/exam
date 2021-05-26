@@ -9,7 +9,7 @@ namespace WpfApp2.Model
     interface IDataProvider
     {
         IEnumerable<pokipateli> GetPokipatelis();
-        IEnumerable<SpravochnikPokipateli> GetCities();
+        IEnumerable<City> GetCities();
     }
    
 }

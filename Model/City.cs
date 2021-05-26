@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WpfApp2.Model
 {
-    public class SpravochnikPokipateli
+    public class City
     {
         public string Title { get; set; }
     }

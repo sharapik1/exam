@@ -1,5 +1,4 @@
-﻿using DocumentFormat.OpenXml.Bibliography;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +9,15 @@ namespace WpfApp2
 {
     public class LocalDataProvider : IDataProvider
     {
-        public IEnumerable<SpravochnikPokipateli> GetCities()
+        public IEnumerable<Model.City> GetCities()
         {
-            return new Cit
+            return new City[]
+            {
+                new City { Title="Йошкар-Ола"},
+                new City { Title="Москва"},
+                new City { Title="Уфа"},
+            };
+           
           
             
         }
