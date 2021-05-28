@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="auto" Width="auto">
     <Grid>
         
             <Grid.RowDefinitions>
@@ -56,14 +56,41 @@
                     </DataTemplate>
                 </ComboBox.ItemTemplate>
             </ComboBox>
-                    
+                
+            <Label
+                    Content="Искать"
+                    VerticalAlignment="Center"/>
+            <TextBox
+                    Width="200"
+                    VerticalAlignment="Center"
+                    x:Name="SearchFilterTexBox"
+                    KeyUp="SearchFilter_KeyUp"/>
+                
+                <Label
+                    Content="Сумма покупки"
+                    VerticalAlignment="Center"/>
+                
+            <RadioButton
+    GroupName="Symmapokipok"
+    Tag="1"
+    Content="по возрастанию"
+    IsChecked="True"
+    Checked="RadioButton_Checked"
+    VerticalAlignment="Center"/>
+            <RadioButton
+    GroupName="Symmapokipok"
+    Tag="2"
+    Content="по убыванию"
+    Checked="RadioButton_Checked"
+    VerticalAlignment="Center"/>
+                
         </WrapPanel>
         <DataGrid 
           Grid.Row="1"
           Grid.Column="1"
           CanUserAddRows="False"
           AutoGenerateColumns="False"
-          ItemsSource="{Binding CatList}">
+          ItemsSource="{Binding PokipateliList}">
             <DataGrid.Columns>
                <DataGridTextColumn
                    Header="Имя"
@@ -77,6 +104,9 @@
                 <DataGridTextColumn
                    Header="Сумма покупок"
             Binding="{Binding Symmapokipok}"/>
+                <DataGridTextColumn
+                    Header="Город"
+                    Binding="{Binding City}"/>
             </DataGrid.Columns>
         </DataGrid>
         

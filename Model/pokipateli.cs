@@ -11,8 +11,9 @@ namespace WpfApp2.Model
         public string Name { get; set; }
         public string Familia { get; set; }
         public int Age { get; set; }
-        public int Symmapokipok { get; set; }
+        public double Symmapokipok { get; set; }
         public DateTime Data { get; set; }
         public string City { get; set; }
+
     }
 }
