@@ -1,0 +1,82 @@
+?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPokipateli xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Pokipatel>
+    <Name>Екатерина</Name>
+    <Familia>Шарапова</Familia>
+    <Age>17</Age>
+    <Symmapokipok>4545,56<Symmapokipok>
+    <Data>2021.07.02<Data>
+    <City>Йошкар-Ола<City>
+</Pokipatel>
+<Pokipatel>
+    <Name>Тимур</Name>
+    <Familia>Пирождок</Familia>
+    <Age>17</Age>
+    <Symmapokipok>45466,56<Symmapokipok>
+    <Data>2021.07.02<Data>
+    <City>Йошкар-Ола<City>
+</Pokipatel>
+<Pokipatel>
+    <Name>Мария</Name>
+    <Familia>Шарапова</Familia>
+    <Age>47</Age>
+    <Symmapokipok>456755,56<Symmapokipok>
+    <Data>2021.04.02<Data>
+    <City>Москва<City>
+</Pokipatel>
+<Pokipatel>
+    <Name>Александр</Name>
+    <Familia>Гречкин</Familia>
+    <Age>56</Age>
+    <Symmapokipok>156545,90<Symmapokipok>
+    <Data>2014.12.02<Data>
+    <City>Рязань<City>
+</Pokipatel>
+<Pokipatel>
+    <Name>Николь</Name>
+    <Familia>Федорова</Familia>
+    <Age>49</Age>
+    <Symmapokipok>131322,10<Symmapokipok>
+    <Data>2010.01.07<Data>
+    <City>Москва<City>
+</Pokipatel>
+<Pokipatel>
+    <Name>Кристина</Name>
+    <Familia>Немка</Familia>
+    <Age>23</Age>
+    <Symmapokipok>455,56<Symmapokipok>
+    <Data>2021.04.04<Data>
+    <City>Нижний НовгородCity>
+</Pokipatel>
+<Pokipatel>
+    <Name>Яна</Name>
+    <Familia>Мирич</Familia>
+    <Age>19</Age>
+    <Symmapokipok>34,05<Symmapokipok>
+    <Data>2021.03.29<Data>
+    <City>Волжск<City>
+</Pokipatel>
+<Pokipatel>
+    <Name>Варя</Name>
+    <Familia>Химна</Familia>
+    <Age>56</Age>
+    <Symmapokipok>12209,89<Symmapokipok>
+    <Data>2004.08.10<Data>
+    <City>Волгоград<City>
+</Pokipatel>
+<Pokipatel>
+    <Name>Фиона</Name>
+    <Familia>Фея</Familia>
+    <Age>12</Age>
+    <Symmapokipok>55,55<Symmapokipok>
+    <Data>2022.02.02<Data>
+    <City>Санкт-Петерберг<City>
+</Pokipatel>
+<Pokipatel>
+    <Name>Евгений</Name>
+    <Familia>Игимбаев</Familia>
+    <Age>19</Age>
+    <Symmapokipok>1,50<Symmapokipok>
+    <Data>2021.05.29<Data>
+    <City>Йошкар-ола<City>
+</Pokipatel>

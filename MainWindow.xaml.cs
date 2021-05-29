@@ -52,7 +52,7 @@ namespace WpfApp2
         {
             InitializeComponent();
             DataContext = this;
-            Globals.dataProvider = new DataProvider("pokipateli.csv");
+            Globals.dataProvider = new DataProvider("pokipateli.xml");
             PokipateliList = Globals.dataProvider.GetPokipatelis();
             CityList = Globals.dataProvider.GetCities().ToList();
             CityList.Insert(0, new City { Title = "Все города" });
