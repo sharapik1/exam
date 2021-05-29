@@ -104,7 +104,10 @@
                 <DataGridTextColumn
                    Header="Сумма покупок"
             Binding="{Binding Symmapokipok}"/>
-                <DataGridTextColumn
+            <DataGridTextColumn
+                   Header="Дата покупки"
+                    Binding="{Binding DateString}"/>
+            <DataGridTextColumn
                     Header="Город"
                     Binding="{Binding City}"/>
             </DataGrid.Columns>

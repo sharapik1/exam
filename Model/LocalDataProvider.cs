@@ -9,7 +9,7 @@ namespace WpfApp2
 {
     public class LocalDataProvider : IDataProvider
     {
-        public IEnumerable<Model.City> GetCities()
+        public IEnumerable<City> GetCities()
         {
             return new City[]
             {

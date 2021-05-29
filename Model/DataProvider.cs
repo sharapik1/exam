@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,7 @@ namespace WpfApp2.Model
                             Age = int.Parse(fields[2]),
                             Symmapokipok = Double.Parse(fields[3]),
                             Data = DateTime.Parse(fields[4]),
+                            //Data = DateTime.ParseExact(fields[4], "yyyy-MM-dd", CultureInfo.InvariantCulture),
                             City = fields[5]
                         }
                         );

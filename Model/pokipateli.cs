@@ -15,5 +15,13 @@ namespace WpfApp2.Model
         public DateTime Data { get; set; }
         public string City { get; set; }
 
+        public string DateString
+        {
+            get
+            {
+                return Data.ToShortDateString();
+            }
+        }
+
     }
 }
