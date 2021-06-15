@@ -24,95 +24,69 @@
             Source="./Img/client.jpg" 
             Grid.RowSpan="2"/>
 
-            <StackPanel 
+        <StackPanel 
         Orientation="Vertical"
         Grid.RowSpan="3"
         VerticalAlignment="Bottom">
-                <Button 
+            <Button 
             x:Name="ExitButton"
             Content="Выход" 
             Click="ExitButton_Click"
             Height="50"/>
-            </StackPanel>
-
-            <WrapPanel
+        </StackPanel>
+        <WrapPanel
         Orientation="Horizontal"
         Grid.Column="1"
         MinHeight="50">
-            <Label
-            Content="Город:"
-            VerticalAlignment="Center"/>
+            <Label 
+    Content="Город:"
+    VerticalAlignment="Center"/>
             <ComboBox
-                    Name="CityFilterComboBox"
-                    SelectionChanged="CityFilterComboBox_SelectionChanged"
-                    VerticalAlignment="Center"
-                    MinWidth="100"
-                    SelectedIndex="0"
-                    ItemsSource="{Binding CityList}">
+    Name="CityFilterComboBox"
+    SelectionChanged="CityFilterComboBox_SelectionChanged"
+    VerticalAlignment="Center"
+    MinWidth="100"
+    SelectedIndex="0"
+    ItemsSource="{Binding CityList}">
+
                 <ComboBox.ItemTemplate>
                     <DataTemplate>
-                        <Label
-                            Content="{Binding Title}"/>
+                        <Label 
+                Content="{Binding Title}"/>
                     </DataTemplate>
                 </ComboBox.ItemTemplate>
             </ComboBox>
-                
-            <Label
-                    Content="Искать"
-                    VerticalAlignment="Center"/>
-            <TextBox
-                    Width="200"
-                    VerticalAlignment="Center"
-                    x:Name="SearchFilterTexBox"
-                    KeyUp="SearchFilter_KeyUp"/>
-                
-                <Label
-                    Content="Сумма покупки"
-                    VerticalAlignment="Center"/>
-                
-            <RadioButton
-    GroupName="Symmapokipok"
-    Tag="1"
-    Content="по возрастанию"
-    IsChecked="True"
-    Checked="RadioButton_Checked"
-    VerticalAlignment="Center"/>
-            <RadioButton
-    GroupName="Symmapokipok"
-    Tag="2"
-    Content="по убыванию"
-    Checked="RadioButton_Checked"
-    VerticalAlignment="Center"/>
-                
         </WrapPanel>
-        <DataGrid 
-          Grid.Row="1"
-          Grid.Column="1"
-          CanUserAddRows="False"
-          AutoGenerateColumns="False"
-          ItemsSource="{Binding PokipateliList}">
+        <DataGrid
+    Grid.Row="1"
+    Grid.Column="1"
+    CanUserAddRows="False"
+    AutoGenerateColumns="False"
+    ItemsSource="{Binding PokipateliList}">
             <DataGrid.Columns>
-               <DataGridTextColumn
-                   Header="Имя"
+                <DataGridTextColumn
+            Header="Имя"
             Binding="{Binding Name}"/>
                 <DataGridTextColumn
-                   Header="Фамилия"
+            Header="Фамилия"
             Binding="{Binding Familia}"/>
                 <DataGridTextColumn
-                   Header="Возраст"
+            Header="Возраст"
             Binding="{Binding Age}"/>
                 <DataGridTextColumn
-                   Header="Сумма покупок"
+            Header="Город"
+            Binding="{Binding City}"/>
+                <DataGridTextColumn
+            Header="Дата покупки"
+            Binding="{Binding Data}"/>
+                <DataGridTextColumn
+            Header="Сумма покупки"
             Binding="{Binding Symmapokipok}"/>
-            <DataGridTextColumn
-                   Header="Дата покупки"
-                    Binding="{Binding DateString}"/>
-            <DataGridTextColumn
-                    Header="Город"
-                    Binding="{Binding City}"/>
             </DataGrid.Columns>
         </DataGrid>
-        
+
+
+
 
     </Grid>
 </Window>
