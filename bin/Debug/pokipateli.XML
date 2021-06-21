@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPokipateli xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<pokipateli>
+    <Name>Екатерина</Name>
+    <Familia>Шарапова</Familia>
+    <Age>17</Age>
+    <Symmapokipok>1616.19</Symmapokipok>
+    <City>Йошкар-Ола</City>
+    <Data>2021-04-08</Data>
+</pokipateli>
+<pokipateli>
+    <Name>Тимур</Name>
+    <Familia>Игимбаев</Familia>
+    <Age>150</Age>
+    <Symmapokipok>157.19</Symmapokipok>
+    <City>Йошкар-Ола</City>
+    <Data>2021-07-02</Data>
+</pokipateli> 
+<pokipateli>
+    <Name>Евгений</Name>
+    <Familia>Смирнов</Familia>
+    <Age>21</Age>
+    <Symmapokipok>17474.19</Symmapokipok>
+    <City>Казань</City>
+    <Data>2021-06-21</Data>
+</pokipateli>
+<pokipateli>
+    <Name>Юлия</Name>
+    <Familia>Кропотова</Familia>
+    <Age>20</Age>
+    <Symmapokipok>1616.19</Symmapokipok>
+    <City>Куженер</City>
+    <Data>2021-10-20</Data>
+</pokipateli>
+<pokipateli>
+    <Name>Екатерина</Name>
+    <Familia>Александровна</Familia>
+    <Age>25</Age>
+    <Symmapokipok>142.19</Symmapokipok>
+    <City>Москва</City>
+    <Data>2021-09-08</Data>
+</pokipateli>
+<pokipateli>
+    <Name>Лилия</Name>
+    <Familia>Садовая</Familia>
+    <Age>20</Age>
+    <Symmapokipok>780.15</Symmapokipok>
+    <City>Киров</City>
+    <Data>2021-05-05</Data>
+</pokipateli>
+<pokipateli>
+    <Name>Тимур</Name>
+    <Familia>Николаев</Familia>
+    <Age>30</Age>
+    <Symmapokipok>23467.19</Symmapokipok>
+    <City>Крым</City>
+    <Data>2021-10-21</Data>
+</pokipateli>
+<pokipateli>
+    <Name>Артур</Name>
+    <Familia>Кандрашов</Familia>
+    <Age>17</Age>
+    <Symmapokipok>2747.99</Symmapokipok>
+    <City>Химки</City>
+    <Data>2021-08-19</Data>
+</pokipateli>
+<pokipateli>
+    <Name>Азамат</Name>
+    <Familia>Айталиев</Familia>
+    <Age>25</Age>
+    <Symmapokipok>3098.99</Symmapokipok>
+    <City>Нижнекамск</City>
+    <Data>2021-08-19</Data>
+</pokipateli>
+<pokipateli>
+    <Name>Николай</Name>
+    <Familia>Михайлов</Familia>
+    <Age>35</Age>
+    <Symmapokipok>1343.99</Symmapokipok>
+    <City>Караганда</City>
+    <Data>2021-08-19</Data>
+</pokipateli>
+</ArrayOfPokipateli>

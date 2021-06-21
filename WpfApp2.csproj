@@ -67,7 +67,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Model\DataProvider.cs" />
+    <Compile Include="Model\XMLDataProvider.cs" />
     <Compile Include="Model\Globals.cs" />
     <Compile Include="Model\IDataProvider.cs" />
     <Compile Include="Model\LocalDataProvider.cs" />

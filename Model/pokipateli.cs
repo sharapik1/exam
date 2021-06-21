@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WpfApp2.Model
 {
+    [Serializable]
     public class pokipateli
     {
         public string Name { get; set; }
@@ -22,6 +23,6 @@ namespace WpfApp2.Model
                 return Data.ToShortDateString();
             }
         }
-
+        
     }
 }
