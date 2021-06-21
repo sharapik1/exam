@@ -41,6 +41,7 @@
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -67,7 +68,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Model\DataProvider.cs" />
+    <Compile Include="Model\JSONDataProvider.cs" />
     <Compile Include="Model\Globals.cs" />
     <Compile Include="Model\IDataProvider.cs" />
     <Compile Include="Model\LocalDataProvider.cs" />
